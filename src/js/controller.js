@@ -9,11 +9,6 @@ import addRecipeView from './views/addRecipeView.js';
 
 import 'core-js/stable'; // for polyfilling everything but async await
 import 'regenerator-runtime/runtime'; // for polyfilling async await
-import { async } from 'regenerator-runtime';
-
-// if (module.hot) {
-//   module.hot.accept();
-// }
 
 const controlRecipes = async function () {
   try {
